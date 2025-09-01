@@ -1005,10 +1005,6 @@ body {
         grid-template-columns: repeat(2, 1fr);
         gap: 0.8rem;
     }
-
-    .gallery-item {
-        height: 150px;
-    }
 }
 
 /* Loading Animation */
@@ -1079,4 +1075,12 @@ body {
 .scroll-top:hover {
     transform: translateY(-3px);
     box-shadow: 0 8px 20px rgba(74, 29, 29, 0.3);
+}
+
+img {
+  width: 100%;          /* Container की पूरी width */
+  height: 100%;         /* Container की पूरी height */
+  max-width: 100%;      /* Container से बड़ा नहीं होगा */
+  max-height: 100%;     /* Container से ऊंचा नहीं होगा */
+  border-radius: 15px;
 }
